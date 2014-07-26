@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/usr/hadoop_0_20_2/1/dfs/name</value>
+	</property>
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>/usr/hadoop_0_20_2/1/dfs/data</value>
+	</property>
+	<property>
+		<name>dfs.replication</name>
+		<value>1</value>
+	</property>
+</configuration>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>mapred.job.tracker</name>
+		<value>192.168.1.9:9001</value>
+	</property>
+	<!-- property>
+		<name>mapreduce.framework.name</name>
+		<value>yarn</value>
+	</property -->
+	<property>
+		<name>mapred.system.dir</name>
+		<value>/usr/hadoop_0_20_2/mapred/system</value>
+		<final>true</final>
+	</property>
+	<property>
+		<name>mapred.local.dir</name>
+		<value>/usr/hadoop_0_20_2/mapred/local</value>
+		<final>true</final>
+	</property>
+	
+	<!-- <property>
+        <name>maprd.jar</name>
+        <value>/home/test/work/env/hadoop/hadoop-0.20.2/wordcount/wordcount.jar</value>
+	</property> -->
+	<property>
+		<name>mapred.working.dir</name>
+		<value>/usr/hadoop_0_20_2/mapred/working</value>
+		<final>true</final>
+	</property>
+</configuration>
