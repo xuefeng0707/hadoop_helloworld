@@ -95,6 +95,7 @@ public class WordCountTest {
 		conf.setOutputFormat(TextOutputFormat.class);
 		
 		FileSystem fs = FileSystem.get(conf);
+		// delete output dir first
 		fs.delete(new Path(output), true);
 		FileInputFormat.setInputPaths(conf, new Path(input));
 		FileOutputFormat.setOutputPath(conf, new Path(output));
